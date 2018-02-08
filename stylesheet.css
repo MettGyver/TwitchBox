@@ -1,0 +1,117 @@
+body {
+    background-image: url(bilder/background.jpg);
+    color:#fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 72px;
+}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    background-color: darkmagenta;
+}
+
+#content {
+    /* float:left; */
+    width: 50%;
+    margin: 0 auto;
+}
+
+#twitchBanner {
+    width: 400px;
+    height: 70px;
+    background-color: #6441A4;
+}
+
+.twitchbox {
+    margin: 10px;
+    padding-top: 25px;
+    display:block;
+    width: 30%;
+    height: 200px;
+    border: 1px;
+    border-style: solid;
+    border-color:black;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-color: #6441A4;
+    float: left;
+}
+
+.twitchbox a {
+    color:whitesmoke;
+}
+
+.twitchbox img {
+
+}
+
+.font {
+    font-family: 'Anton', sans-serif;
+    color:#fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 26px;
+}
+
+.circleOnline {
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+    background-color: green;
+    margin: 5px auto;
+}
+
+.circleOffline {
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	background-color: red;
+	margin: 5px auto;
+}
+
+.pulse {
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(0,255,0, 0.4);
+  animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0,255,0, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(0,255,0, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0,255,0, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(0,255,0, 0.4);
+    box-shadow: 0 0 0 0 rgba(0,255,0, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(0,255,0, 0);
+      box-shadow: 0 0 0 10px rgba(0,255,0, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(0,255,0, 0);
+      box-shadow: 0 0 0 0 rgba(0,255,0, 0);
+  }
+}

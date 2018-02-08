@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Twitchbox Test</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script type='text/javascript' src='config.js'></script>
+    <script type="text/javascript" src="twitchbox.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/Morphext/dist/morphext.css">
+
+    <script>
+        //insert Channelname here to create a "Twitchbox"
+        var channelname = ['rocketbeanstv', 'zartmann', 'moondye7', 'mettgyver', 'druffgaming', 'eleaguetv'];
+        channelname.sort();
+
+        for (i = 0; i < channelname.length; i++) {
+            twitchbox(channelname[i]);
+        }
+
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="content">
+
+        </div>
+
+        <div id="test">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
