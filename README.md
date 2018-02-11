@@ -1,11 +1,15 @@
 # TwitchBox
 ![alt text](https://image.ibb.co/d1MDrH/twitchbox.png)
 
-## -TBA-
+## What does it looks like?
+-TBA-
+
+I'm not done yet! Due to the fact that it is still in development, I'm going to change some things and try to make it easier. Don't be too hard.
 
 ## Getting Started
 
-### Import all necessary files
+### Import all necessary files.
+
 1. Copy the "twitchbox.js" and "stylesheet.css" in your project folder.
 
 2. Link both files in the head area.
@@ -19,7 +23,7 @@
   <script src="https://code.jquery.com/jquery-latest.js"></script>
   ```
 
-### Prepare Twitchbox
+### Prepare Twitchbox.
 
 1. You need to have your own Twitch Client ID
   * [dev.twitch.tv](https://dev.twitch.tv/docs/v5) - Get it here for free!
@@ -31,7 +35,7 @@
 
 3. Done
 
-### Prepare your output file & Launch
+### Prepare your output file & launch.
 
 1. You need to include and <div> called "twitchbox" into your file. (I try to simplify that later)
   ```
@@ -45,6 +49,10 @@
   </script>
   ```
   
-## You're done.
+### You're done.
+
+
 
 ![alt text](http://lyyn.fr.nf/photoshow/?t=Thb&f=meme+face%2F1282786204310.jpg)
+
+
