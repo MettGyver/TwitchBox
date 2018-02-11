@@ -4,7 +4,7 @@
 ## What does it looks like?
 -TBA-
 
-I'm not done yet! Due to the fact that it is still in development, I'm going to change some things and try to simplify some things. 
+I'm not done yet! Due to the fact that it is still in development, I'm going to change some things and try to make some parts easier. 
 Don't be too hard. :smile:
 
 ## Getting Started
