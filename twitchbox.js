@@ -29,7 +29,7 @@ function getAPI(name, nummer) {
 
         },
         error: function (data) {
-            alert("Oh noes");
+            //alert("Oh noes");
         }
     });
 }
@@ -42,7 +42,7 @@ function checkOnline(name) {
             'Client-ID': 'l8ggy8znc9nauiyzaa1pr9x373pnaa'
         },
         success: function (data) {
-            $('#profilbild' + name).attr("src", data["logo"]);
+            //$('#profilbild' + name).attr("src", data["logo"]);
 
             if (data["stream"] === null) {
                 $('#online' + name).text("Offline");
