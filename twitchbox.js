@@ -70,7 +70,7 @@ function checkOnline(name) {
 
 function twitchbox(name) {
     $(document).ready(function () {
-        $('<div class="twitchbox" id="channel' + name + '"></div>').appendTo("#content");
+        $('<div class="twitchbox" id="channel' + name + '"></div>').appendTo("#twitchbox");
         $('<img height="42" width="42" id="profilbild' + name + '">').appendTo("#channel" + name);
         $('<div id="name' + name + '" class="font"></div>').appendTo("#channel" + name);
         $('<div id="followerbox' + name + '"><div id="follower' + name + '"></div></div>').appendTo("#channel" + name);
