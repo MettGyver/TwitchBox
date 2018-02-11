@@ -10,9 +10,9 @@ I'm not done yet! Due to the fact that it is still in development, I'm going to 
 
 ### Import all necessary files.
 
-1. Copy the "twitchbox.js" and "stylesheet.css" in your project folder.
+1. Copy the "twitchbox.js" and "stylesheet.css" into your project folder.
 
-2. Link both files in the head area.
+2. Link both files inside your head area.
   ```
   <link rel="stylesheet" href="stylesheet.css">
   <script type="text/javascript" src="twitchbox.js"></script>
@@ -37,12 +37,12 @@ I'm not done yet! Due to the fact that it is still in development, I'm going to 
 
 ### Prepare your output file & launch.
 
-1. You need to include and <div> called "twitchbox" into your file. (I try to simplify that later)
+1. You need to include an <div> called "twitchbox" into your file. (I will try to simplify that later)
   ```
   <div id="twitchbox"></div>
   ```
 
-2. Now you can create a TwitchBox by calling the script in your head area
+2. Now you can create an TwitchBox by calling the script inside your head area.
   ```
   <script>
     twitchbox("channelName");
@@ -50,7 +50,6 @@ I'm not done yet! Due to the fact that it is still in development, I'm going to 
   ```
   
 ### You're done.
-
 
 
 ![alt text](http://lyyn.fr.nf/photoshow/?t=Thb&f=meme+face%2F1282786204310.jpg)
