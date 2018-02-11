@@ -4,7 +4,8 @@
 ## What does it looks like?
 -TBA-
 
-I'm not done yet! Due to the fact that it is still in development, I'm going to change some things and try to make it easier. Don't be too hard.
+I'm not done yet! Due to the fact that it is still in development, I'm going to change some things and try to simplify some things. 
+Don't be too hard. :smile:
 
 ## Getting Started
 
@@ -37,7 +38,7 @@ I'm not done yet! Due to the fact that it is still in development, I'm going to 
 
 ### Prepare your output file & launch.
 
-1. You need to include an <div> called "twitchbox" into your file. (I will try to simplify that later)
+1. You need to include an <div> called "twitchbox" into your file. (I will try to simplify that later :yum:)
   ```
   <div id="twitchbox"></div>
   ```
@@ -49,7 +50,7 @@ I'm not done yet! Due to the fact that it is still in development, I'm going to 
   </script>
   ```
   
-### You're done.
+### You're done. :purple_heart:
 
 
 ![alt text](http://lyyn.fr.nf/photoshow/?t=Thb&f=meme+face%2F1282786204310.jpg)
